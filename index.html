@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,14 +8,13 @@
     <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
   <body>
+    
     <!-- Шапка сторінки -->
     <header class="header">
+
       <!-- Навігація -->
       <nav class="navigation">
-        <a href="/" class="logo"
-          ><span class="logo-web">Web</span
-          ><span class="logo-studio">Studio</span></a
-        >
+        <a href="/" class="logo">Web<span class="logo-studio">Studio</span></a>
         <ul class="navigation-list">
           <li class="navigation-item">
             <a href="/studio" class="navigation-link">Студія</a>
@@ -28,6 +27,7 @@
           </li>
         </ul>
       </nav>
+
       <!-- Контакти -->
       <ul class="contacts">
         <li class="contact-item">
@@ -41,16 +41,16 @@
 
     <!-- Унікальний контент -->
     <main>
-      <div>
-        <!-- секція "герой" -->
-        <section>
-          <h1>
-            ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
-            ВАШОГО БІЗНЕСУ
-          </h1>
-          <button type="button">Замовити послугу</button>
-        </section>
-      </div>
+
+      <!-- секція "герой" -->
+      <section>
+        <h1>
+          ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
+          ВАШОГО БІЗНЕСУ
+        </h1>
+        <button type="button">Замовити послугу</button>
+      </section>
+
       <!-- секція - особливості -->
       <section>
         <h2>Особливості</h2>
@@ -84,20 +84,52 @@
           </li>
         </ul>
       </section>
-      <figure>
-        <!-- figure - чим ми займаємося -->
-        <figcaption><h2>Чим ми займаємося</h2></figcaption>
-        <img src="./images/box1.jpg" alt="working on PC" width="370" />
-        <img src="./images/box2.jpg" alt="working on smartphone" width="370" />
-        <img src="./images/box3.jpg" alt="working on tablet" width="370" />
-      </figure>
+
+      <!-- section - чим ми займаємося -->
+      <section>
+        <ul>
+          <li><h2>Чим ми займаємося</h2></li>
+          <li>
+            <img src="./images/box1.jpg" alt="working on PC" width="370" />
+          </li>
+          <li>
+            <img
+              src="./images/box2.jpg"
+              alt="working on smartphone"
+              width="370"
+            />
+          </li>
+          <li>
+            <img src="./images/box3.jpg" alt="working on tablet" width="370" />
+          </li>
+        </ul>
+      </section>
+
       <!-- секція - наша команда -->
       <section>
-        <h2>Наша команда</h2>
-        <img src="./images/img1.jpg" alt="Product designer" width="270" />
-        <img src="./images/img2.jpg" alt="Frontend developer" width="270" />
-        <img src="./images/img3.jpg" alt="Marketing" width="270" />
-        <img src="./images/img4.jpg" alt="UI Designer" width="270" />
+        <ul>
+          <li><h2>Наша команда</h2></li>
+          <li>
+            <img src="./images/img1.jpg" alt="Product designer" width="270" />
+            <h3>Ігор Дем'яненко</h3>
+            <p>Product Designer</p>
+          </li>
+          <li>
+            <img src="./images/img2.jpg" alt="Frontend developer" width="270" />
+            <h3>Ольга Рєпіна</h3>
+            <p>Frontend Developer</p>
+          </li>
+          <li>
+            <img src="./images/img3.jpg" alt="Marketing" width="270" />
+            <h3>Микола Тарасов</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/img4.jpg" alt="UI Designer" width="270" />
+            <h3>Михайло Єрмаков</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
       </section>
     </main>
 
@@ -110,7 +142,12 @@
       <!-- адреса -->
       <address>
         <ul>
-          <li>м. Київ, пр-т Лесі Українки, 26</li>
+          <li><a
+              href="https://goo.gl/maps/f5yNeRXzDAJeazgZ9"
+              target="blank"
+              rel="noopener noreferrer nofollow">
+              м. Київ, пр-т Лесі Українки, 26
+            </a></li>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
